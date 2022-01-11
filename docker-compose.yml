@@ -10,7 +10,7 @@ services:
     depends_on:
       - elasticsearch
     volumes:
-      - ./indexer/:/home/jovyan/work/
+      - ./work/:/home/jovyan/work/
     environment:
       - JUPYTER_TOKEN=admin 
 
